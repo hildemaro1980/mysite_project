@@ -1,0 +1,19 @@
+{% extends 'mylayout.html' %}
+
+{% block content %}
+  <h1 class="w3-container w3-light-grey w3-center">My Posts</h1>
+  <h3>There are {{ total_posts }} post{{ total_posts|pluralize }}</h3>
+  {% for post in posts %}
+    <div>
+        <div>
+            <img src="{{ post.image.url}}" alt="{post.title}">
+        </div>
+        <div>
+          <h1 class="">{{ post.title }}</h1>
+          <p class="w3-text-yellow">{{ post.date|date:'M d Y' }}</p>
+          <p>{{ post.description|safe|truncatewords:20 }}</p>
+          <a href="{% url 'blog:post_detail' post.id %}">{{ post.title }}</a>
+        </div>
+    </div>
+  {% endfor %}
+{% endblock %}

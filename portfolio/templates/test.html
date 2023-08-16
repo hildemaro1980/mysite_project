@@ -1,0 +1,35 @@
+<!--{% load static %}-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="w3-cell-row">
+      <div class="w3-container w3-black w3-cell">
+        <img src="{% static 'portfolio/perfil.jpeg' %}">
+      </div>
+      <div class="w3-container w3-black w3-cell">
+        <h1 class="w3-center">Hildemaro Ramon Carraquel Matos, PhD</h1>
+        <p class="w3-padding">Around 18 years of experience in the area of electronics, instrumentation and control, industrial maintenance, projects and automation of 
+            residential and industrial processes; working in Venezuela, Brazil and E.E.U.U. I have participated in multidisciplinary teams in the 
+            execution of large-scale projects. Always keeping knowledge at the forefront of technology market.
+        </p>
+        <a class="w3-btn w3-green" href="{% static 'portfolio/cv.pdf' %}"> Download CV</a> 
+      </div>
+    </div>
+    <div class="w3-container w3-teal">
+      <h2>Projects</h2>
+    </div>
+    <div class="w3-container w3-light-gray">
+      {% for my_project in my_projects %}
+        <h2>{{ my_project.title }}</h2>
+        <p>{{ my_project.description }}</p>       
+      {% endfor %}
+    </div>
+  </body>
+</html>

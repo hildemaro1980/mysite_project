@@ -1,0 +1,10 @@
+{% load static %}
+<div class="w3-bar w3-black">
+    <a href="/" class="w3-bar-item w3-button">Home</a>
+    <a href="{% static 'portfolio/cv.pdf' %}" class="w3-bar-item w3-button">Download my CV</a>
+    <a href="{% url 'blog:posts' %}" class="w3-bar-item w3-button">My Blog</a>
+    <a href="{% url 'blog:posts' %}" class="w3-bar-item w3-button">Español</a>
+    <a href="{% url 'blog:posts' %}" class="w3-bar-item w3-button">Portugues</a>
+    <a href="{% url 'blog:posts' %}" class="w3-bar-item w3-button">Ruso</a>
+    <a href="{% url 'blog:posts' %}" class="w3-bar-item w3-button">English</a>
+</div>
