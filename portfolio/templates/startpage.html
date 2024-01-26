@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>{% trans "Web Site - Hildemaro Carrasquel" %}</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -28,19 +28,19 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "DM Serif Display", sans-serif}
   <img src="{% static 'portfolio/perfil.jpeg' %}" style="width:100%">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
-    <p>{% trans "HOME" %}</p>
+    <p>{% trans "Home" %}</p>
   </a>
   <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-user w3-xxlarge"></i>
-    <p>{% trans "ABOUT" %}</p>
+    <p>{% trans "About Me" %}</p>
   </a>
   <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>PHOTOS</p>
+    <i class="fa fa-cubes w3-xxlarge"></i>
+    <p>{% trans "My Projects" %}</p>
   </a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
+    <p>{% trans "Contact" %}</p>
   </a>
 </nav>
 
@@ -56,6 +56,18 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "DM Serif Display", sans-serif}
 
 <!-- Page Content -->
 <div class="w3-padding-large" id="main">
+  <div class="w3-bar w3-light-grey">
+    <a href="#" class="w3-bar-item w3-button">Language: </a>
+    
+    <div class="w3-dropdown-hover">
+      <button class="w3-button">Select Language</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">English</a>
+        <a href="#" class="w3-bar-item w3-button">Spanish</a>
+        <a href="#" class="w3-bar-item w3-button">Portuguese</a>
+      </div>
+    </div>
+  </div> 
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">PhD,</span> Hildemaro Carrasquel.</h1>
@@ -64,10 +76,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "DM Serif Display", sans-serif}
   </header>
 
   <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">{% trans "About me!" %}</h2>
+  <div class="w3-content w3-justify w3-text-amber w3-padding-64" id="about">
+    <h2 class="w3-text-light-amber">{% trans "About me!" %}</h2>
     <hr style="width:200px" class="w3-opacity" >
-    <p class="w3-text-amber">{% blocktrans%} Around 19 years of experience in the area of electronics, instrumentation and control, 
+    <p class="w3-text-white">{% blocktrans%} Around 19 years of experience in the area of electronics, instrumentation and control, 
       industrial maintenance, projects and automation of residential and industrial processes; 
       working in Venezuela, Brazil, E.E.U.U. and Spain. I have participated in multidisciplinary teams 
       in the execution of large-scale projects. Always keeping knowledge at the forefront of 
@@ -115,23 +127,23 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "DM Serif Display", sans-serif}
   
   <!-- Portfolio Section -->
   <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">My Photos</h2>
+    <h2 class="w3-text-amber">{% trans "My Most Notables Projects" %} </h2>
     <hr style="width:200px" class="w3-opacity">
 
     <!-- Grid for photos -->
     <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
+      <!--<div class="w3-half"> -->
         <img src="/w3images/wedding.jpg" style="width:100%">
         <img src="/w3images/rocks.jpg" style="width:100%">
         <img src="/w3images/sailboat.jpg" style="width:100%">
-      </div>
-
-      <div class="w3-half">
+    <!--  </div>
+    -->
+     <!-- <div class="w3-half">
         <img src="/w3images/underwater.jpg" style="width:100%">
         <img src="/w3images/chef.jpg" style="width:100%">
         <img src="/w3images/wedding.jpg" style="width:100%">
         <img src="/w3images/p6.jpg" style="width:100%">
-      </div>
+      </div>-->
     <!-- End photo grid -->
     </div>
   <!-- End Portfolio Section -->
@@ -139,14 +151,15 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "DM Serif Display", sans-serif}
 
   <!-- Contact Section -->
   <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <h2 class="w3-text-light-grey">{% trans "Contact Me" %}</h2>
     <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> {% trans "São Luis - Ma, Brazil"%}</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>{% trans "Phone: +55 98 991885745 (WhatsApp too)" %}</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> {% trans "e-mail: hildemaro1980@gmail.com" %}</p>
     </div><br>
+    <!--
     <p>Let's get in touch. Send me a message:</p>
 
     <form action="/action_page.php" target="_blank">
@@ -160,6 +173,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "DM Serif Display", sans-serif}
         </button>
       </p>
     </form>
+  -->
   <!-- End Contact Section -->
   </div>
   
