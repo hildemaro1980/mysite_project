@@ -4,7 +4,7 @@ from . import views
 app_name = 'blog'
 
 urlpatterns = [
-    path('',views.rederPost, name = "posts"),
+    path('',views.renderPost, name = "posts"),
     path("<int:post_id>", views.post_detail, name='post_detail')
     
 ]

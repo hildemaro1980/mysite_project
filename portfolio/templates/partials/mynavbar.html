@@ -1,10 +1,26 @@
 {% load static %}
-<div class="w3-bar w3-black">
-    <a href="/" class="w3-bar-item w3-button">Home</a>
-    <a href="{% static 'portfolio/cv.pdf' %}" class="w3-bar-item w3-button">Download my CV</a>
-    <a href="{% url 'blog:posts' %}" class="w3-bar-item w3-button">My Blog</a>
-    <a href="{% url 'blog:posts' %}" class="w3-bar-item w3-button">Español</a>
+{% load i18n %} 
+<div class="w3-bar w3-black"> 
+    <a href="/" class="w3-bar-item w3-button">{% trans "Home" %}</a>
+    <a href="{% static 'portfolio/cv.pdf' %}" class="w3-bar-item w3-button">{% trans "Download my CV" %}</a>
+    <a href="{% url 'blog:posts' %}" class="w3-bar-item w3-button">{% trans "My Blog" %}</a>
+    <!--<a href="{% url 'blog:posts' %}" class="w3-bar-item w3-button">Español</a>
     <a href="{% url 'blog:posts' %}" class="w3-bar-item w3-button">Portugues</a>
     <a href="{% url 'blog:posts' %}" class="w3-bar-item w3-button">Ruso</a>
-    <a href="{% url 'blog:posts' %}" class="w3-bar-item w3-button">English</a>
+    <a href="{% url 'blog:posts' %}" class="w3-bar-item w3-button">English</a>-->
+    {% get_current_language as CURRENT_LANGUAGE %}
+    {% get_available_languages as AVAILABLE_LANGUAGES %}
+    {% get_language_info_list for AVAILABLE_LANGUAGES as languages %}
+    {% for  language in languages  %}
+   
+    
+        
+            <a href="/{{ language.code }}/" class="w3-bar-item w3-button"       
+            {% if language.code == CURRENT_LANGUAGE %} {% endif %} >
+            {{ language.name_local }}
+            </a> 
+          
+    
+
+    {% endfor %}
 </div>

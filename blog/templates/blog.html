@@ -1,8 +1,8 @@
 {% extends 'mylayout.html' %}
-
+{% load i18n %}
 {% block content %}
-  <h1 class="w3-container w3-light-grey w3-center">My Posts</h1>
-  <h3>There are {{ total_posts }} post{{ total_posts|pluralize }}</h3>
+  <h1 class="w3-container w3-light-grey w3-center">{% trans "My Posts" %}</h1>
+  <h3>  {% blocktrans %} There are {{ total_posts }} post{{ total_posts|pluralize }} {% endblocktrans %}</h3>
   {% for post in posts %}
     <div>
         <div>
