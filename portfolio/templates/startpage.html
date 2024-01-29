@@ -155,7 +155,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "DM Serif Display", sans-serif}
 
             <h1 class="w3-text-white w3-large">{{ my_project.title }}</h1>
             <p class="w3-text-yellow"> {{my_project.date}}  </p>        
-            <p>{{ my_project.description }}</p>
+            <p>{{ my_project.description|safe|truncatewords:20 }}</p>
           </div>
         </div>
       {% endfor %}
