@@ -35,13 +35,15 @@ from portfolio import views
 #    path('blog/', include('blog.urls')),
 #]
 urlpatterns = i18n_patterns(
-    path('startpage',views.startPage),
+    #path('startpage',views.startPage),
+    path('',views.startPage),
     path(_('admin/'), admin.site.urls),
     path('rosetta/',include('rosetta.urls')),
     #path('', views.home),
     #path('test',views.test),
-    path('',views.test),
+    path('test',views.test),
     path('blog/', include('blog.urls')),
+    path('project/', include('portfolio.urls')),
  )
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

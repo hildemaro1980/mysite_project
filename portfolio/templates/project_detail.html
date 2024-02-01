@@ -2,13 +2,13 @@
 
 {% block content %}
   <div class="w3-container w3-grey w3-center">
-    <h1>{{ post.title }}</h1>
-    <p class="w3-text-yellow">{{ post.date|date:'F jS Y'}}</p>
+    <h1>{{ project.title }}</h1>
+    <p class="w3-text-yellow">{{ project.date|date:'F Y'}}</p>
     <!--<p class="w3-text-yellow">{{ post.date|date:'F Y'}}</p>-->
-    <img src="{{ post.image.url }}" alt="img-fluid">
+    <img src="{{ project.image.url }}" alt="img-fluid" style="width: 50%">
   </div>
   <div class="w3-container">
     <br />
-    {{ post.description|safe }}
+    {{ project.description|safe }}
   </div>
 {% endblock %}

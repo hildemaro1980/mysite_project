@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-25 19:43-0300\n"
+"POT-Creation-Date: 2024-02-01 19:22-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgstr ""
 msgid "Russian"
 msgstr ""
 
-#: .\mywebsite\urls.py:39
+#: .\mywebsite\urls.py:40
 msgid "admin/"
 msgstr ""
 
@@ -59,7 +59,7 @@ msgstr ""
 
 #: .\portfolio\templates\myhome.html:14
 msgid ""
-" Around 18 years of experience in the area of electronics, instrumentation "
+" Around 19 years of experience in the area of electronics, instrumentation "
 "and control, \n"
 "                                      industrial maintenance, projects and "
 "automation of residential and industrial processes; \n"
@@ -74,20 +74,155 @@ msgstr ""
 msgid "Featured Works"
 msgstr ""
 
-#: .\portfolio\templates\partials\mynavbar.html:4
+#: .\portfolio\templates\partials\mynavbar.html:9
+#: .\portfolio\templates\startpage.html:36
+#: .\portfolio\templates\startpage.html:59
 msgid "Home"
 msgstr ""
 
-#: .\portfolio\templates\partials\mynavbar.html:5
+#: .\portfolio\templates\partials\mynavbar.html:10
 msgid "Download my CV"
 msgstr ""
 
-#: .\portfolio\templates\partials\mynavbar.html:6
+#: .\portfolio\templates\partials\mynavbar.html:11
+#: .\portfolio\templates\startpage.html:48
+#: .\portfolio\templates\startpage.html:190
 msgid "My Blog"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:30
-msgid "HOME"
+#: .\portfolio\templates\startpage.html:6
+msgid "Web Site - Hildemaro Carrasquel"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:40
+msgid "About Me"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:44
+msgid "My Projects"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:52
+#: .\portfolio\templates\startpage.html:63
+msgid "Contact"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:60
+msgid "About"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:61
+msgid "Projects"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:62
+msgid "Blog"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:73
+#, python-format
+msgid " Language: %(CURRENT_LANGUAGE)s "
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:98
+msgid "Electronic Engineer, Programmer, DIY, Baseball loved."
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:105
+msgid "About me!"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:107
+msgid ""
+" My name is Hildemaro Carrasquel, I am trained in the electronic area, "
+"mentioning \n"
+"      control and instrumentation; with a master's degree in automation of "
+"industrial production processes "
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:110
+msgid ""
+" Around 19 years of experience in the area of electronics, instrumentation "
+"and control, \n"
+"      industrial maintenance, projects and automation of residential and "
+"industrial processes; \n"
+"      working in Venezuela, Brazil, E.E.U.U. and Spain. I have participated "
+"in multidisciplinary teams \n"
+"      in the execution of large-scale projects. Always keeping knowledge at "
+"the forefront of \n"
+"      technology market. "
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:121
+msgid "Hard Skills"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:123
+msgid "Programming Languagues:"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:124
+msgid "Data Base:"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:126
+msgid "Industrial Comunication Protocol:"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:133
+msgid "Knowledge in:"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:141
+msgid "Soft Skills"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:142
+msgid "Strategy Planning."
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:143
+msgid "Self-confidence."
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:144
+msgid "Teamwork."
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:145
+msgid "Work under pressure."
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:146
+msgid "Good Communication"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:147
+msgid "Flexibility and adaptability"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:161
+msgid "My Most Notables Projects"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:214
+msgid "Contact Me"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:218
+msgid "São Luis - Ma, Brazil"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:219
+msgid "Phone: +55 98 991885745 (WhatsApp too)"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:220
+msgid "e-mail: hildemaro1980@gmail.com"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:228
+msgid "Follow me:"
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:15

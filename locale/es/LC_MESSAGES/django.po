@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-25 19:43-0300\n"
-"PO-Revision-Date: 2024-01-25 19:45+0000\n"
+"POT-Creation-Date: 2024-02-01 19:22-0300\n"
+"PO-Revision-Date: 2024-02-01 19:25+0000\n"
 "Last-Translator:   <hildemar1980@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: .\blog\templates\blog.html:4
 msgid "My Posts"
-msgstr "Mis Postages"
+msgstr "Mis Publicaciones"
 
 #: .\blog\templates\blog.html:5
 #, python-format
@@ -45,7 +45,7 @@ msgstr "Portugués"
 msgid "Russian"
 msgstr "Ruso"
 
-#: .\mywebsite\urls.py:39
+#: .\mywebsite\urls.py:40
 msgid "admin/"
 msgstr ""
 
@@ -60,7 +60,7 @@ msgstr ""
 
 #: .\portfolio\templates\myhome.html:14
 msgid ""
-" Around 18 years of experience in the area of electronics, instrumentation and control, \n"
+" Around 19 years of experience in the area of electronics, instrumentation and control, \n"
 "                                      industrial maintenance, projects and automation of residential and industrial processes; \n"
 "                                      working in Venezuela, Brazil, E.E.U.U. and Spain. I have participated in multidisciplinary teams \n"
 "                                      in the execution of large-scale projects. Always keeping knowledge at the forefront of \n"
@@ -77,21 +77,161 @@ msgstr ""
 msgid "Featured Works"
 msgstr "Trabajos Destacados"
 
-#: .\portfolio\templates\partials\mynavbar.html:4
+#: .\portfolio\templates\partials\mynavbar.html:9
+#: .\portfolio\templates\startpage.html:36
+#: .\portfolio\templates\startpage.html:59
 msgid "Home"
 msgstr "Inicio"
 
-#: .\portfolio\templates\partials\mynavbar.html:5
+#: .\portfolio\templates\partials\mynavbar.html:10
 msgid "Download my CV"
 msgstr "Descargar mi CV"
 
-#: .\portfolio\templates\partials\mynavbar.html:6
+#: .\portfolio\templates\partials\mynavbar.html:11
+#: .\portfolio\templates\startpage.html:48
+#: .\portfolio\templates\startpage.html:190
 msgid "My Blog"
 msgstr "Mi Blog"
 
-#: .\portfolio\templates\startpage.html:30
-msgid "HOME"
-msgstr "INICIO"
+#: .\portfolio\templates\startpage.html:6
+msgid "Web Site - Hildemaro Carrasquel"
+msgstr "Pagina Web - Hildemaro Carrasquel"
+
+#: .\portfolio\templates\startpage.html:40
+msgid "About Me"
+msgstr "Sobre Mi"
+
+#: .\portfolio\templates\startpage.html:44
+msgid "My Projects"
+msgstr "Mis Proyectos"
+
+#: .\portfolio\templates\startpage.html:52
+#: .\portfolio\templates\startpage.html:63
+msgid "Contact"
+msgstr "Contacto"
+
+#: .\portfolio\templates\startpage.html:60
+#| msgid "About Me"
+msgid "About"
+msgstr "Sobre Mi"
+
+#: .\portfolio\templates\startpage.html:61
+msgid "Projects"
+msgstr "Proyectos"
+
+#: .\portfolio\templates\startpage.html:62
+msgid "Blog"
+msgstr "Blog"
+
+#: .\portfolio\templates\startpage.html:73
+#, python-format
+msgid " Language: %(CURRENT_LANGUAGE)s "
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:98
+msgid "Electronic Engineer, Programmer, DIY, Baseball loved."
+msgstr ""
+"Ingeniero electrónico, programador, bricolaje (DIY), amante del béisbol."
+
+#: .\portfolio\templates\startpage.html:105
+msgid "About me!"
+msgstr "Sobre Mi!"
+
+#: .\portfolio\templates\startpage.html:107
+msgid ""
+" My name is Hildemaro Carrasquel, I am trained in the electronic area, mentioning \n"
+"      control and instrumentation; with a master's degree in automation of industrial production processes "
+msgstr ""
+"Mi nombre es Hildemaro Carrasquel, soy formado en el área de Electrónica, "
+"mención: Control e intrumentación; con una maestría y doctorado en "
+"automatización de procesos industriales de producción"
+
+#: .\portfolio\templates\startpage.html:110
+msgid ""
+" Around 19 years of experience in the area of electronics, instrumentation and control, \n"
+"      industrial maintenance, projects and automation of residential and industrial processes; \n"
+"      working in Venezuela, Brazil, E.E.U.U. and Spain. I have participated in multidisciplinary teams \n"
+"      in the execution of large-scale projects. Always keeping knowledge at the forefront of \n"
+"      technology market. "
+msgstr ""
+"Alrededor de 20 años de experiencia en el área de electrónica, "
+"instrumentación y control, mantenimiento industrial, proyectos y "
+"automatización de procesos residenciales e industriales; trabajando en "
+"Venezuela, Brasil, E.E.U.U. y España. He participado en equipos "
+"multidisciplinarios en la ejecución de proyectos de gran envergadura. "
+"Manteniendo siempre el conocimiento a la vanguardia del mercado tecnológico."
+
+#: .\portfolio\templates\startpage.html:121
+msgid "Hard Skills"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:123
+msgid "Programming Languagues:"
+msgstr "Lenguajes de Programación:"
+
+#: .\portfolio\templates\startpage.html:124
+msgid "Data Base:"
+msgstr "Base de Datos:"
+
+#: .\portfolio\templates\startpage.html:126
+msgid "Industrial Comunication Protocol:"
+msgstr "Protocolos de Comunicación Industrial:"
+
+#: .\portfolio\templates\startpage.html:133
+msgid "Knowledge in:"
+msgstr "Conocimientos en:"
+
+#: .\portfolio\templates\startpage.html:141
+msgid "Soft Skills"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:142
+msgid "Strategy Planning."
+msgstr "Planificación estratégica."
+
+#: .\portfolio\templates\startpage.html:143
+msgid "Self-confidence."
+msgstr "Auto confianza."
+
+#: .\portfolio\templates\startpage.html:144
+msgid "Teamwork."
+msgstr "Trabajo en equipo."
+
+#: .\portfolio\templates\startpage.html:145
+msgid "Work under pressure."
+msgstr "Trabajo bajo presión."
+
+#: .\portfolio\templates\startpage.html:146
+msgid "Good Communication"
+msgstr "Buena comunicación."
+
+#: .\portfolio\templates\startpage.html:147
+msgid "Flexibility and adaptability"
+msgstr "Flexibilidad y adaptabilidad"
+
+#: .\portfolio\templates\startpage.html:161
+msgid "My Most Notables Projects"
+msgstr "Mis proyectos mas notables"
+
+#: .\portfolio\templates\startpage.html:214
+msgid "Contact Me"
+msgstr "Contáctame"
+
+#: .\portfolio\templates\startpage.html:218
+msgid "São Luis - Ma, Brazil"
+msgstr "São Luis - Ma, Brasil"
+
+#: .\portfolio\templates\startpage.html:219
+msgid "Phone: +55 98 991885745 (WhatsApp too)"
+msgstr "Telefono: +55 98 991885745 (Tambien WhatsApp)"
+
+#: .\portfolio\templates\startpage.html:220
+msgid "e-mail: hildemaro1980@gmail.com"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:228
+msgid "Follow me:"
+msgstr "Sigueme:"
 
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:15
 msgid "Messages"
@@ -957,122 +1097,122 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\utils\dates.py:53
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr "Ene"
+msgstr "Ene."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:54
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr ""
+msgstr "Feb."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:55
 msgctxt "abbrev. month"
 msgid "March"
-msgstr ""
+msgstr "Marzo"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:56
 msgctxt "abbrev. month"
 msgid "April"
-msgstr ""
+msgstr "Abril"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:57
 msgctxt "abbrev. month"
 msgid "May"
-msgstr ""
+msgstr "Mayo"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:58
 msgctxt "abbrev. month"
 msgid "June"
-msgstr ""
+msgstr "Junio"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:59
 msgctxt "abbrev. month"
 msgid "July"
-msgstr ""
+msgstr "Julio"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:60
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr ""
+msgstr "Ago."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:61
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr ""
+msgstr "Sept."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:62
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr ""
+msgstr "Oct."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:63
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr ""
+msgstr "Nov."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:64
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr ""
+msgstr "Dic,"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:67
 msgctxt "alt. month"
 msgid "January"
-msgstr ""
+msgstr "Enero"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:68
 msgctxt "alt. month"
 msgid "February"
-msgstr ""
+msgstr "Febrero"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:69
 msgctxt "alt. month"
 msgid "March"
-msgstr ""
+msgstr "Marzo"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:70
 msgctxt "alt. month"
 msgid "April"
-msgstr ""
+msgstr "Abril"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:71
 msgctxt "alt. month"
 msgid "May"
-msgstr ""
+msgstr "Mayo"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:72
 msgctxt "alt. month"
 msgid "June"
-msgstr ""
+msgstr "Junio"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:73
 msgctxt "alt. month"
 msgid "July"
-msgstr ""
+msgstr "Julio"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:74
 msgctxt "alt. month"
 msgid "August"
-msgstr ""
+msgstr "Agosto"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:75
 msgctxt "alt. month"
 msgid "September"
-msgstr ""
+msgstr "Septiembre"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:76
 msgctxt "alt. month"
 msgid "October"
-msgstr ""
+msgstr "Octubre"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:77
 msgctxt "alt. month"
 msgid "November"
-msgstr ""
+msgstr "Noviembre"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:78
 msgctxt "alt. month"
 msgid "December"
-msgstr ""
+msgstr "Diciembre"
 
 #: .\venv\Lib\site-packages\django\utils\ipv6.py:8
 msgid "This is not a valid IPv6 address."
@@ -1302,3 +1442,9 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:248
 msgid "Connect, get help, or contribute"
 msgstr ""
+
+#~ msgid "My Blogs"
+#~ msgstr "Mis Blogs"
+
+#~ msgid "HOME"
+#~ msgstr "INICIO"
