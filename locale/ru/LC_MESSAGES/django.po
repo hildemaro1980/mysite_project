@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 19:22-0300\n"
+"POT-Creation-Date: 2024-02-02 17:03-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,7 +76,8 @@ msgstr ""
 
 #: .\portfolio\templates\partials\mynavbar.html:9
 #: .\portfolio\templates\startpage.html:36
-#: .\portfolio\templates\startpage.html:59
+#: .\portfolio\templates\startpage.html:60
+#: .\portfolio\templates\startpage.html:72
 msgid "Home"
 msgstr ""
 
@@ -86,7 +87,7 @@ msgstr ""
 
 #: .\portfolio\templates\partials\mynavbar.html:11
 #: .\portfolio\templates\startpage.html:48
-#: .\portfolio\templates\startpage.html:190
+#: .\portfolio\templates\startpage.html:226
 msgid "My Blog"
 msgstr ""
 
@@ -103,36 +104,41 @@ msgid "My Projects"
 msgstr ""
 
 #: .\portfolio\templates\startpage.html:52
-#: .\portfolio\templates\startpage.html:63
+#: .\portfolio\templates\startpage.html:64
+#: .\portfolio\templates\startpage.html:76
 msgid "Contact"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:60
+#: .\portfolio\templates\startpage.html:61
+#: .\portfolio\templates\startpage.html:73
 msgid "About"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:61
+#: .\portfolio\templates\startpage.html:62
+#: .\portfolio\templates\startpage.html:74
 msgid "Projects"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:62
+#: .\portfolio\templates\startpage.html:63
+#: .\portfolio\templates\startpage.html:75
 msgid "Blog"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:73
+#: .\portfolio\templates\startpage.html:83
+#: .\portfolio\templates\startpage.html:109
 #, python-format
 msgid " Language: %(CURRENT_LANGUAGE)s "
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:98
+#: .\portfolio\templates\startpage.html:134
 msgid "Electronic Engineer, Programmer, DIY, Baseball loved."
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:105
+#: .\portfolio\templates\startpage.html:141
 msgid "About me!"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:107
+#: .\portfolio\templates\startpage.html:143
 msgid ""
 " My name is Hildemaro Carrasquel, I am trained in the electronic area, "
 "mentioning \n"
@@ -140,9 +146,9 @@ msgid ""
 "industrial production processes "
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:110
+#: .\portfolio\templates\startpage.html:146
 msgid ""
-" Around 19 years of experience in the area of electronics, instrumentation "
+" Around 20 years of experience in the area of electronics, instrumentation "
 "and control, \n"
 "      industrial maintenance, projects and automation of residential and "
 "industrial processes; \n"
@@ -153,75 +159,79 @@ msgid ""
 "      technology market. "
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:121
+#: .\portfolio\templates\startpage.html:157
 msgid "Hard Skills"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:123
-msgid "Programming Languagues:"
+#: .\portfolio\templates\startpage.html:159
+msgid "Programming Languages:"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:124
+#: .\portfolio\templates\startpage.html:160
 msgid "Data Base:"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:126
-msgid "Industrial Comunication Protocol:"
+#: .\portfolio\templates\startpage.html:162
+msgid "Industrial Communication Protocol:"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:133
+#: .\portfolio\templates\startpage.html:169
 msgid "Knowledge in:"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:141
+#: .\portfolio\templates\startpage.html:177
 msgid "Soft Skills"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:142
+#: .\portfolio\templates\startpage.html:178
 msgid "Strategy Planning."
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:143
+#: .\portfolio\templates\startpage.html:179
 msgid "Self-confidence."
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:144
+#: .\portfolio\templates\startpage.html:180
 msgid "Teamwork."
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:145
+#: .\portfolio\templates\startpage.html:181
 msgid "Work under pressure."
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:146
+#: .\portfolio\templates\startpage.html:182
 msgid "Good Communication"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:147
+#: .\portfolio\templates\startpage.html:183
 msgid "Flexibility and adaptability"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:161
-msgid "My Most Notables Projects"
+#: .\portfolio\templates\startpage.html:190
+msgid "Download Resume"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:214
+#: .\portfolio\templates\startpage.html:197
+msgid "My Most Notable Projects"
+msgstr ""
+
+#: .\portfolio\templates\startpage.html:250
 msgid "Contact Me"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:218
+#: .\portfolio\templates\startpage.html:254
 msgid "São Luis - Ma, Brazil"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:219
+#: .\portfolio\templates\startpage.html:255
 msgid "Phone: +55 98 991885745 (WhatsApp too)"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:220
+#: .\portfolio\templates\startpage.html:256
 msgid "e-mail: hildemaro1980@gmail.com"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:228
+#: .\portfolio\templates\startpage.html:264
 msgid "Follow me:"
 msgstr ""
 

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 19:22-0300\n"
-"PO-Revision-Date: 2024-01-24 10:30+0000\n"
+"POT-Creation-Date: 2024-02-02 17:03-0300\n"
+"PO-Revision-Date: 2024-02-02 17:07+0000\n"
 "Last-Translator:   <hildemar1980@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -59,33 +59,17 @@ msgstr ""
 "beseibol."
 
 #: .\portfolio\templates\myhome.html:14
-#, fuzzy
-#| msgid ""
-#| " Around 18 years of experience in the area of electronics, "
-#| "instrumentation and control, \n"
-#| "                                      industrial maintenance, projects "
-#| "and automation of residential and industrial processes; \n"
-#| "                                      working in Venezuela, Brazil, E.E.U."
-#| "U. and Spain. I have participated in multidisciplinary teams \n"
-#| "                                      in the execution of large-scale "
-#| "projects. Always keeping knowledge at the forefront of \n"
-#| "                                      technology market. "
 msgid ""
-" Around 19 years of experience in the area of electronics, instrumentation "
-"and control, \n"
-"                                      industrial maintenance, projects and "
-"automation of residential and industrial processes; \n"
-"                                      working in Venezuela, Brazil, E.E.U.U. "
-"and Spain. I have participated in multidisciplinary teams \n"
-"                                      in the execution of large-scale "
-"projects. Always keeping knowledge at the forefront of \n"
+" Around 19 years of experience in the area of electronics, instrumentation and control, \n"
+"                                      industrial maintenance, projects and automation of residential and industrial processes; \n"
+"                                      working in Venezuela, Brazil, E.E.U.U. and Spain. I have participated in multidisciplinary teams \n"
+"                                      in the execution of large-scale projects. Always keeping knowledge at the forefront of \n"
 "                                      technology market. "
 msgstr ""
 "Cerca de 18 anos de experiência na área de eletrônica, instrumentação,\n"
 "manutenção industrial, automação de processos residenciais e industriais;\n"
 "trabalhando na Venezuela, Brasil, E.E.U.U e Espanha. Participei de equipes\n"
-"multidisciplinares na execução de projetos de grande porte. Sempre mantendo "
-"o\n"
+"multidisciplinares na execução de projetos de grande porte. Sempre mantendo o\n"
 "conhecimento na vanguarda da tecnologia de mercado."
 
 #: .\portfolio\templates\myhome.html:25
@@ -94,7 +78,8 @@ msgstr "Trabalhos Destacados"
 
 #: .\portfolio\templates\partials\mynavbar.html:9
 #: .\portfolio\templates\startpage.html:36
-#: .\portfolio\templates\startpage.html:59
+#: .\portfolio\templates\startpage.html:60
+#: .\portfolio\templates\startpage.html:72
 msgid "Home"
 msgstr "Inicio"
 
@@ -104,7 +89,7 @@ msgstr "Baixar CV"
 
 #: .\portfolio\templates\partials\mynavbar.html:11
 #: .\portfolio\templates\startpage.html:48
-#: .\portfolio\templates\startpage.html:190
+#: .\portfolio\templates\startpage.html:226
 msgid "My Blog"
 msgstr "Meu Blog"
 
@@ -114,161 +99,147 @@ msgstr ""
 
 #: .\portfolio\templates\startpage.html:40
 msgid "About Me"
-msgstr ""
+msgstr "Sobre mim"
 
 #: .\portfolio\templates\startpage.html:44
-#, fuzzy
-#| msgid "My Posts"
 msgid "My Projects"
-msgstr "Minhas Postagens"
+msgstr "Meus Projetos"
 
 #: .\portfolio\templates\startpage.html:52
-#: .\portfolio\templates\startpage.html:63
+#: .\portfolio\templates\startpage.html:64
+#: .\portfolio\templates\startpage.html:76
 msgid "Contact"
-msgstr ""
-
-#: .\portfolio\templates\startpage.html:60
-msgid "About"
-msgstr ""
+msgstr "Contato"
 
 #: .\portfolio\templates\startpage.html:61
-#, fuzzy
-#| msgid "My Posts"
-msgid "Projects"
-msgstr "Minhas Postagens"
+#: .\portfolio\templates\startpage.html:73
+msgid "About"
+msgstr "Sobre mim"
 
 #: .\portfolio\templates\startpage.html:62
-#, fuzzy
-#| msgid "My Blog"
+#: .\portfolio\templates\startpage.html:74
+msgid "Projects"
+msgstr "Projetos"
+
+#: .\portfolio\templates\startpage.html:63
+#: .\portfolio\templates\startpage.html:75
 msgid "Blog"
 msgstr "Meu Blog"
 
-#: .\portfolio\templates\startpage.html:73
+#: .\portfolio\templates\startpage.html:83
+#: .\portfolio\templates\startpage.html:109
 #, python-format
 msgid " Language: %(CURRENT_LANGUAGE)s "
-msgstr ""
+msgstr "Idioma: %(CURRENT_LANGUAGE)s"
 
-#: .\portfolio\templates\startpage.html:98
-#, fuzzy
-#| msgid "Electronic Engineer, Programmer, DIY, Baseball loved"
+#: .\portfolio\templates\startpage.html:134
 msgid "Electronic Engineer, Programmer, DIY, Baseball loved."
 msgstr ""
 "Engenheiro eletrônico, programador, Faça você mesmo (DIY), apaixonado pelo "
-"beseibol."
+"beisebol."
 
-#: .\portfolio\templates\startpage.html:105
+#: .\portfolio\templates\startpage.html:141
 msgid "About me!"
-msgstr ""
+msgstr "Sobre Mim!"
 
-#: .\portfolio\templates\startpage.html:107
+#: .\portfolio\templates\startpage.html:143
 msgid ""
-" My name is Hildemaro Carrasquel, I am trained in the electronic area, "
-"mentioning \n"
-"      control and instrumentation; with a master's degree in automation of "
-"industrial production processes "
+" My name is Hildemaro Carrasquel, I am trained in the electronic area, mentioning \n"
+"      control and instrumentation; with a master's degree in automation of industrial production processes "
 msgstr ""
+"Meu nome é Hildemaro Carrasquel, sou formado na área eletrônica:\n"
+"controle e instrumentação; com mestrado e doutorado em automação de processos de produção industrial"
 
-#: .\portfolio\templates\startpage.html:110
-#, fuzzy
-#| msgid ""
-#| " Around 18 years of experience in the area of electronics, "
-#| "instrumentation and control, \n"
-#| "                                      industrial maintenance, projects "
-#| "and automation of residential and industrial processes; \n"
-#| "                                      working in Venezuela, Brazil, E.E.U."
-#| "U. and Spain. I have participated in multidisciplinary teams \n"
-#| "                                      in the execution of large-scale "
-#| "projects. Always keeping knowledge at the forefront of \n"
-#| "                                      technology market. "
+#: .\portfolio\templates\startpage.html:146
 msgid ""
-" Around 19 years of experience in the area of electronics, instrumentation "
-"and control, \n"
-"      industrial maintenance, projects and automation of residential and "
-"industrial processes; \n"
-"      working in Venezuela, Brazil, E.E.U.U. and Spain. I have participated "
-"in multidisciplinary teams \n"
-"      in the execution of large-scale projects. Always keeping knowledge at "
-"the forefront of \n"
+" Around 20 years of experience in the area of electronics, instrumentation and control, \n"
+"      industrial maintenance, projects and automation of residential and industrial processes; \n"
+"      working in Venezuela, Brazil, E.E.U.U. and Spain. I have participated in multidisciplinary teams \n"
+"      in the execution of large-scale projects. Always keeping knowledge at the forefront of \n"
 "      technology market. "
 msgstr ""
-"Cerca de 18 anos de experiência na área de eletrônica, instrumentação,\n"
+"Cerca de 20 anos de experiência na área de eletrônica, instrumentação,\n"
 "manutenção industrial, automação de processos residenciais e industriais;\n"
 "trabalhando na Venezuela, Brasil, E.E.U.U e Espanha. Participei de equipes\n"
-"multidisciplinares na execução de projetos de grande porte. Sempre mantendo "
-"o\n"
+"multidisciplinares na execução de projetos de grande porte. Sempre mantendo o\n"
 "conhecimento na vanguarda da tecnologia de mercado."
 
-#: .\portfolio\templates\startpage.html:121
+#: .\portfolio\templates\startpage.html:157
 msgid "Hard Skills"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:123
-msgid "Programming Languagues:"
-msgstr ""
+#: .\portfolio\templates\startpage.html:159
+msgid "Programming Languages:"
+msgstr "Linguagens de programação:"
 
-#: .\portfolio\templates\startpage.html:124
+#: .\portfolio\templates\startpage.html:160
 msgid "Data Base:"
-msgstr ""
+msgstr "Base de dados"
 
-#: .\portfolio\templates\startpage.html:126
-msgid "Industrial Comunication Protocol:"
-msgstr ""
+#: .\portfolio\templates\startpage.html:162
+msgid "Industrial Communication Protocol:"
+msgstr "Protocolo de comunicação industrial:"
 
-#: .\portfolio\templates\startpage.html:133
+#: .\portfolio\templates\startpage.html:169
 msgid "Knowledge in:"
-msgstr ""
+msgstr "Conhecimento em:"
 
-#: .\portfolio\templates\startpage.html:141
+#: .\portfolio\templates\startpage.html:177
 msgid "Soft Skills"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:142
+#: .\portfolio\templates\startpage.html:178
 msgid "Strategy Planning."
-msgstr ""
+msgstr "Planejamento Estratégico."
 
-#: .\portfolio\templates\startpage.html:143
+#: .\portfolio\templates\startpage.html:179
 msgid "Self-confidence."
-msgstr ""
+msgstr "Auto confiança."
 
-#: .\portfolio\templates\startpage.html:144
+#: .\portfolio\templates\startpage.html:180
 msgid "Teamwork."
-msgstr ""
+msgstr "Trabalho em equipe."
 
-#: .\portfolio\templates\startpage.html:145
+#: .\portfolio\templates\startpage.html:181
 msgid "Work under pressure."
-msgstr ""
+msgstr "Trabalhar sob pressão."
 
-#: .\portfolio\templates\startpage.html:146
+#: .\portfolio\templates\startpage.html:182
 msgid "Good Communication"
-msgstr ""
+msgstr "Boa comunicação."
 
-#: .\portfolio\templates\startpage.html:147
+#: .\portfolio\templates\startpage.html:183
 msgid "Flexibility and adaptability"
-msgstr ""
+msgstr "Flexibilidade e adaptabilidade."
 
-#: .\portfolio\templates\startpage.html:161
-msgid "My Most Notables Projects"
-msgstr ""
+#: .\portfolio\templates\startpage.html:190
+msgid "Download Resume"
+msgstr "Baixar CV"
 
-#: .\portfolio\templates\startpage.html:214
+#: .\portfolio\templates\startpage.html:197
+#| msgid "My Most Notables Projects"
+msgid "My Most Notable Projects"
+msgstr "Meus projetos mais notáveis"
+
+#: .\portfolio\templates\startpage.html:250
 msgid "Contact Me"
-msgstr ""
+msgstr "Contate-me"
 
-#: .\portfolio\templates\startpage.html:218
+#: .\portfolio\templates\startpage.html:254
 msgid "São Luis - Ma, Brazil"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:219
+#: .\portfolio\templates\startpage.html:255
 msgid "Phone: +55 98 991885745 (WhatsApp too)"
-msgstr ""
+msgstr "Celular: +55 98 991885745 (WhatsApp também)"
 
-#: .\portfolio\templates\startpage.html:220
+#: .\portfolio\templates\startpage.html:256
 msgid "e-mail: hildemaro1980@gmail.com"
 msgstr ""
 
-#: .\portfolio\templates\startpage.html:228
+#: .\portfolio\templates\startpage.html:264
 msgid "Follow me:"
-msgstr ""
+msgstr "Me siga:"
 
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:15
 msgid "Messages"
@@ -329,8 +300,8 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\core\validators.py:267
 msgid ""
-"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
-"hyphens."
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or"
+" hyphens."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\core\validators.py:279
@@ -530,15 +501,15 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1489
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
-"uuuuuu]][TZ] format."
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1497
 #, python-format
 msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
-"[TZ]) but it is an invalid date/time."
+"“%(value)s” value has the correct format (YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ]) but it is an invalid date/time."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1502
@@ -557,8 +528,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1789
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
-"uuuuuu] format."
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1793
@@ -717,7 +688,8 @@ msgid "Many-to-many relationship"
 msgstr ""
 
 #. Translators: If found as last label character, these punctuation
-#. characters will prevent the default label_suffix to be appended to the label
+#. characters will prevent the default label_suffix to be appended to the
+#. label
 #: .\venv\Lib\site-packages\django\forms\boundfield.py:184
 msgid ":?.!"
 msgstr ""
@@ -767,7 +739,8 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:625
 #, python-format
-msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid ""
+"Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
@@ -875,7 +848,8 @@ msgid "The inline value did not match the parent instance."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1429
-msgid "Select a valid choice. That choice is not one of the available choices."
+msgid ""
+"Select a valid choice. That choice is not one of the available choices."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1568
@@ -1335,11 +1309,11 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:127
 msgid ""
-"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
-"including the “Referrer-Policy: no-referrer” header, please remove them. The "
-"CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
-"\" …> for links to third-party sites."
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or"
+" including the “Referrer-Policy: no-referrer” header, please remove them. "
+"The CSRF protection requires the “Referer” header to do strict referer "
+"checking. If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:136
@@ -1390,8 +1364,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:652
 #, python-format
 msgid ""
-"Future %(verbose_name_plural)s not available because %(class_name)s."
-"allow_future is False."
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:692
@@ -1447,10 +1421,10 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:221
 #, python-format
 msgid ""
-"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
-"\">DEBUG=True</a> is in your settings file and you have not configured any "
-"URLs."
+"You are seeing this page because <a "
+"href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" "
+"target=\"_blank\" rel=\"noopener\">DEBUG=True</a> is in your settings file "
+"and you have not configured any URLs."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:229
@@ -1478,6 +1452,5 @@ msgid "Connect, get help, or contribute"
 msgstr ""
 
 #, fuzzy
-#~| msgid "My Blog"
 #~ msgid "My Blogs"
 #~ msgstr "Meu Blog"

@@ -54,17 +54,50 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "DM Serif Display", sans-serif}
 </nav>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  
+<div class="w3-top w3-hide-large w3-hide-medium w3-black" id="myNavbar">
+  <!--
     <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
       <a href="#" class="w3-bar-item w3-button" style="width:20% !important">{% trans "Home" %}</a>
       <a href="#about" class="w3-bar-item w3-button" style="width:20% !important">{%trans "About" %}</a>
       <a href="#projects" class="w3-bar-item w3-button" style="width:20% !important">{% trans "Projects" %}</a>
       <a href="#blog" class="w3-bar-item w3-button" style="width:20% !important">{% trans "Blog" %}</a>
-      <a href="#contact" class="w3-bar-item w3-button" style="width:20% !important">{% trans "Contact" %}</a>
-    
+      <a href="#contact" class="w3-bar-item w3-button" style="width:20% !important">{% trans "Contact" %}</a>    
     </div>
-   
+    
+  --> 
+    
+    <div class="w3-dropdown-click">
+      <button onclick="myFunction()" class="w3-button w3-black">&#9776</button>
+        <div id="demo" class="w3-dropdown-content w3-bar-block w3-border">
+          <a href="#" class="w3-bar-item w3-button" >{% trans "Home" %}</a>
+          <a href="#about" class="w3-bar-item w3-button" >{%trans "About" %}</a>
+          <a href="#projects" class="w3-bar-item w3-button" >{% trans "Projects" %}</a>
+          <a href="#blog" class="w3-bar-item w3-button" >{% trans "Blog" %}</a>
+          <a href="#contact" class="w3-bar-item w3-button" >{% trans "Contact" %}</a>  
+        </div>
+
+    </div>   
+
+    <div class="w3-container w3-right w3-black ">
+    <div class="w3-dropdown-hover">
+      <button class="w3-button w3-black"> {% blocktrans %} Language: {{ CURRENT_LANGUAGE }} {% endblocktrans %} <i class="fa fa-caret-down"> </i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-border">
+        {% for  language in languages  %} 
+          <a href="/{{ language.code }}/" class="w3-bar-item w3-button">  {{ language.name_local }} </a>
+        {% endfor %}
+      </div>
+    </div>      
+      
+      {% if CURRENT_LANGUAGE == 'es' %}
+        <img src="{% static 'portfolio/flag-spain.png' %}" style="width: 48px;height: 36px;">
+      {% endif %}
+      {% if CURRENT_LANGUAGE == 'en' %}
+        <img src="{% static 'portfolio/flag-usa.png' %}" style="width: 48px;height: 36px;">
+      {% endif %}
+      {% if CURRENT_LANGUAGE == 'pt' %}
+        <img src="{% static 'portfolio/flag-brazil.png' %}" style="width: 48px;height: 36px;">
+      {% endif %}      
+    </div>
 </div>
 
 <!-- Page Content -->
@@ -76,7 +109,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "DM Serif Display", sans-serif}
       <button class="w3-button"> {% blocktrans %} Language: {{ CURRENT_LANGUAGE }} {% endblocktrans %} <i class="fa fa-caret-down"> </i></button>
       <div class="w3-dropdown-content w3-bar-block w3-border">
         {% for  language in languages  %} 
-          <a href="/{{ language.code }}/" class="w3-bar-item w3-button">  {{ language.name_local }} </a>
+          <a href="/{{ language.code }}/" class="w3-bar-item w3-button">  {{ language.name_local }}  </a>
         {% endfor %}
       </div>
     </div>      
@@ -110,7 +143,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "DM Serif Display", sans-serif}
     <p class="w3-text-white">{% blocktrans %} My name is Hildemaro Carrasquel, I am trained in the electronic area, mentioning 
       control and instrumentation; with a master's degree in automation of industrial production processes {% endblocktrans %}
     </p>
-    <p class="w3-text-white">{% blocktrans %} Around 19 years of experience in the area of electronics, instrumentation and control, 
+    <p class="w3-text-white">{% blocktrans %} Around 20 years of experience in the area of electronics, instrumentation and control, 
       industrial maintenance, projects and automation of residential and industrial processes; 
       working in Venezuela, Brazil, E.E.U.U. and Spain. I have participated in multidisciplinary teams 
       in the execution of large-scale projects. Always keeping knowledge at the forefront of 
@@ -123,10 +156,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "DM Serif Display", sans-serif}
         <ul class="w3-ul w3-white w3-center">
           <li class="w3-dark-grey w3-xlarge w3-padding-16">{% trans "Hard Skills" %}</li>
           <li class="w3-padding">MS Project, VISIO</li>
-          <li class="w3-padding">{% trans "Programming Languagues:" %}<p> C/C++, Python/Micro-Python, Visual Basic </p> </li>
+          <li class="w3-padding">{% trans "Programming Languages:" %}<p> C/C++, Python/Micro-Python, Visual Basic </p> </li>
           <li class="w3-padding">{% trans "Data Base:" %} <p>Access, SQLite, MySQL</p></li>
           <li class="w3-padding">Windows API</li>
-          <li class="w3-padding">{% trans "Industrial Comunication Protocol:" %}
+          <li class="w3-padding">{% trans "Industrial Communication Protocol:" %}
             <p>HART, FIELDBUS, Profibus, Modbus, TCP/IP, Profinet, Ethernet/IP.</p>
           </li>
           <li class="w3-padding">Tia Portal by Siemens</li>
@@ -154,14 +187,14 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "DM Serif Display", sans-serif}
     <!-- End Skills tables -->
   </div>
   <button class="w3-button w3-light-grey w3-padding w3-section">
-      <i class="fa fa-download"> Download Resume </i> 
+      <i class="fa fa-download">{% trans "Download Resume" %} </i> 
   </button>    
   <!-- End About Section -->
   </div>
   
   <!-- Portfolio Section -->
   <div class="w3-padding-16 w3-content" id="projects">
-    <h2 class="w3-text-amber">{% trans "My Most Notables Projects" %} </h2>
+    <h2 class="w3-text-amber">{% trans "My Most Notable Projects" %} </h2>
     <hr style="width:200px" class="w3-opacity">
 
     <!-- Grid for Projects -->
@@ -238,6 +271,17 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "DM Serif Display", sans-serif}
 
 <!-- END PAGE CONTENT -->
 </div>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("demo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  </script>
 
 </body>
 </html>
